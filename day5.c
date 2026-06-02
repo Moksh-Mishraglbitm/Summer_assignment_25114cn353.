@@ -15,7 +15,7 @@ int main(){
         printf("not a perfect number");
 
     }
-//Q20.to check strong number
+//Q18.to check strong number
 int org,v,p,fact=1,temp=0,j;
 printf("enter the number");
 scanf("%d",&p);
@@ -44,7 +44,7 @@ scanf("%d",&f);
 for(x=1;x<=f;x++){
     if(f%x==0){
         printf("%d\n",x);
-    
+//Q20.largest prime factor   
         m=0;
         for(k=1;k<=x;k++){
             
@@ -61,24 +61,4 @@ for(x=1;x<=f;x++){
 }
 printf("\n%dlargest prime factor",largest);
     
-  
-
-
-
-
-  
-
-//q20.largest prime factor
-
-
-
-
-
-
-
-
-
-
-
-
-}
+  }
